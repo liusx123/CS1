@@ -1,0 +1,23 @@
+git config --global user.name 'mldn'
+
+git config --global user.email '8629303@qq.com' 
+
+git config --list
+git config -l
+
+git status
+
+git add 文件名
+git add Hello.java
+
+git commit -m "提交的注释信息"
+git commit -m "Create New File Hello.java"
+
+git add .
+
+git add -m "Add Two Files"
+
+git commit -a -m "Change Emp.java File"
+
+git diff 文件
+git diff Hello.java
